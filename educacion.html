@@ -89,6 +89,32 @@
 	</aside>
 	<br>
 	<hr>
+	<article>
+		<form autocomplete="on" name="formestudio">
+			<fieldset>
+				<legend><h2>Agregar Estudios.</h2></legend>
+					<label for="añodeestudio"><em>Año.</em></label>
+					<select id="añodeestudio">
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+					</select>
+					<br>
+					<br>
+				<label for="institucion"><em>Institucion</em></label>
+				<input type="text" id="institucion" name="inputinstitucion" required="" autofocus="" placeholder="Nombre de la institucion..." size="30">	
+				<br>
+				<br>
+				<label for="lugardeestudio"><em>Lugar.</em></label>
+				<input type="text" id="lugardeestudio" name="lugardeestudio" size="50" maxlength="50" required="" placeholder="Lugar de la institucion...">
+				<p><em>Finalizo?</em></p>
+				<input type="radio"  value="si" name="Finalizono" id="Finalizosi">Si
+				<input type="radio"  value="no" name="Finalizono" id="Finalizono">No
+				<br>
+				<input type="submit" value="enviar" name="enviar" id="enviar">
+			</fieldset>
+		</form>
+	</article>
 </body>
 </html>
 
