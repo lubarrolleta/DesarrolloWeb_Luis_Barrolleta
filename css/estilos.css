@@ -1,0 +1,11 @@
+a[href$='.html']
+{
+	color: red;
+	font-family: comicsans;
+
+}
+img[src$='.png'],img[src$='.jpg']
+{
+	border-radius: 50px;
+	border: 1px solid black;
+}
